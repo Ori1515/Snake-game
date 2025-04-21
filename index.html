@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🐍 Snake Game</h1>
+  <div id="scoreboard">
+    <div id="score">Score: 0</div>
+    <div id="highscore">High Score: 0</div>
+  </div>
+  
+  <div style="position: relative;">
+    <canvas id="game" width="400" height="400"></canvas>
+    <button id="restartBtn" style="
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #222;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 10;
+">
+  restart
+</button>
+
+  </div>
+
+<script src="main.js"></script>
+
+  <h5>W, A, S, D or Arrow Keys</h5>
+</body>
+</html>
+
